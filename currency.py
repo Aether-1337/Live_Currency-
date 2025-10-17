@@ -22,5 +22,4 @@ def get_all_fiat_rates(base="GBP"):
         print(f"⚠️ Network error: {e}")
         return {}
 
-# Example usage
 get_all_fiat_rates("GBP")
